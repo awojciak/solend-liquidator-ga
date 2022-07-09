@@ -26,4 +26,5 @@ jobs:
           export PRIV_KEY=${{ secrets.PRIV_KEY }}
           export APP=production
           export THROTTLE=1900
+          export MARKET=4UpD2fh7xH3VP9QQaXtsS1YY3bxzWhtfpks7FatyKvdY
           npm run start
