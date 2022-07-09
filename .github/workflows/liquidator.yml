@@ -26,6 +26,4 @@ jobs:
           export PRIV_KEY=${{ secrets.PRIV_KEY }}
           export APP=production
           export THROTTLE=1900
-        # Uncomment line below and specify lending market if you only want to target a single pool
-        # export MARKET=4UpD2fh7xH3VP9QQaXtsS1YY3bxzWhtfpks7FatyKvdY
           npm run start
