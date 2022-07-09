@@ -1,4 +1,4 @@
-name: liquidation schedule
+name: lending pool liquidation schedule
 
 on:
   schedule:
@@ -26,5 +26,5 @@ jobs:
           export PRIV_KEY=${{ secrets.PRIV_KEY }}
           export APP=production
           export THROTTLE=1900
-          export MARKET=4UpD2fh7xH3VP9QQaXtsS1YY3bxzWhtfpks7FatyKvdY
+          export MARKET=C3VQi4sKNXVsG36zhUnvNasXPhzGmWWVpaeSPv5Tf2AB
           npm run start
