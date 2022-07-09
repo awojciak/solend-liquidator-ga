@@ -125,7 +125,7 @@ export function getProgramIdForCurrentDeployment(): string {
     'beta': 'BLendhFh4HGnycEDDFhbeFEUYLP4fXB5tTHMoTX8Dch5',
     'production': 'So1endDq2YkqhipRh3WViPa8hdiSpxWy6z3Z6tMCpAo',
     'staging': 'ALend7Ketfx5bxh6ghsCDXAoDrhvEmsXT3cynB6aPLgx',
-  }[process.env.APP] || 'So1endDq2YkqhipRh3WViPa8hdiSpxWy6z3Z6tMCpAo';
+  }[process.env.APP as string] || 'So1endDq2YkqhipRh3WViPa8hdiSpxWy6z3Z6tMCpAo';
 }
 
 export async function getObligations(connection: Connection, lendingMarketAddr) {
